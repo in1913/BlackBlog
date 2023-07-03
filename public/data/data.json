@@ -1,0 +1,183 @@
+[
+    {
+        "about" : 
+        [
+            {
+                "row1" : 
+                [
+                    {
+                        "num" : 0,
+                        "id" : "이름",
+                        "content" : "최인영"
+                    },
+                    {
+                        "num" : 1,
+                        "id" : "생년월일",
+                        "content" : "96.08.20"
+                    },
+                    {
+                        "num" : 2,
+                        "id" : "주소지",
+                        "content" : "경기도 김포시"
+                    }
+                ],
+                "row2" : 
+                [
+                    {
+                        "num" : 3,
+                        "id" : "연락처",
+                        "content" : "010-5435-2982"
+                    },
+                    {
+                        "num" : 4,
+                        "id" : "이메일",
+                        "content" : "sbchzdlt@naver.com"
+                    },
+                    {
+                        "num" : 5,
+                        "id" : "학력",
+                        "content" : "수원대학교 수학과"
+                    }
+                ],
+                "intro" :
+                [
+                    {
+                        "content" : "안녕하세요. 코딩과 관련된 공부가 너무 즐거운 풀스텍 웹 개발자입니다. 원하는 결과가 있으면 끝까지 파고드는 것이 제 장점입니다."
+                    }
+                ]
+            }
+        ],
+        "skills" :
+        [
+            {
+                "FrontEnd" :
+                [
+                    {
+                        "Web" : 
+                        [
+                            {
+                                "skill" : "HTML5",
+                                "color" : "#f06529"
+                            },
+                            {
+                                "skill" : "CSS3",
+                                "color" : "#2965f1"
+                            },
+                            {
+                                "skill" : "JS",
+                                "color" : "#F0DB4F"
+                            },
+                            {
+                                "skill" : "React",
+                                "color" : "#61DBFB"
+                            },
+                            {
+                                "skill" : "Bootstrap",
+                                "color" : "purple"
+                            }
+                        ],
+                        "Mobile" :
+                        [
+                            {
+                                "skill" : "React Native",
+                                "color" : "#61DBFB"
+                            },
+                            {
+                                "skill" : "Cordova",
+                                "color" : "#A6A6A6"
+                            }
+                        ]
+                    }
+                ],
+                "BackEnd" : 
+                [
+                    {
+                        "language" : 
+                        [
+                            {
+                                "skill" : "Java",
+                                "color" : "#5382a1"
+                            }
+                        ],
+                        "tool" :
+                        [
+                            {
+                                "skill" : "eclipse",
+                                "color" : "#423181"
+                            },
+                            {
+                                "skill" : "Spring",
+                                "color" : "#6DB23F"
+                            },
+                            {
+                                "skill" : "Springboot",
+                                "color" : "#6DB23F"
+                            },
+                            {
+                                "skill" : "Android Studio",
+                                "color" : "#3DDC84"
+                            }
+                        ]
+                    }
+                ],
+                "Server" :
+                [
+                    {
+                        "Cloud" :
+                        [
+                            {
+                                "skill" : "Oracle",
+                                "color" : "#5382a1"
+                            },
+                            {
+                                "skill" : "AWS",
+                                "color" : "#000"
+                            }
+                        ],
+                        "OS" :
+                        [
+                            {
+                                "skill" : "Ubuntu",
+                                "color" : "#DD4814"
+                            }
+                        ],
+                        "Platform" :
+                        [
+                            {
+                                "skill" : "Docker",
+                                "color" : "#0db7ed"
+                            }
+                        ],
+                        "Web Server" :
+                        [
+                            {
+                                "skill" : "Nginx",
+                                "color" : "green"
+                            },
+                            {
+                                "skill" : "tomcat",
+                                "color" : "yellow"
+                            }
+                        ]
+                    }
+                ],
+                "ETC" : 
+                [
+                    {
+                        "skill" : "GitHub",
+                        "color" : "blue"
+                    },
+                    {
+                        "skill" : "Adobe PhotoShop",
+                        "color" : "blue"
+                    },
+                    {
+                        "skill" : "Data Science",
+                        "color" : "blue"
+                    }
+                ]
+                
+            }
+        ]
+    }
+]
