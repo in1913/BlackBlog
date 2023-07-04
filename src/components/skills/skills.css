@@ -1,0 +1,8 @@
+.up{
+    transition: all .4s;
+    transform: translateY(-10px);
+}
+.origin{
+    transition: all .4s;
+
+}

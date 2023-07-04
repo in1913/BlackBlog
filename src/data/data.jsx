@@ -37,7 +37,7 @@ const data = [
         "about" : 
         [
             {
-                "row1" : 
+                "info" : 
                 [
                     {
                         "num" : 0,
@@ -56,10 +56,7 @@ const data = [
                         "id" : "주소지",
                         "content" : "경기도 김포시",
                         "icon" : <RiMapPin2Fill size={30}/>
-                    }
-                ],
-                "row2" : 
-                [
+                    },
                     {
                         "num" : 3,
                         "id" : "연락처",

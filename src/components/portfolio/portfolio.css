@@ -1,0 +1,9 @@
+.big{
+    transition: all .4s;
+    transform: scale(1.05);
+}
+
+.small{
+    transition: all .4s;
+    transform: scale(1.0);
+}

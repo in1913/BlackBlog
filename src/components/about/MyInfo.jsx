@@ -15,7 +15,7 @@ const Title = styled.h1`
 `
 const Content = styled.p`
     font-weight: 300;
-    font-size: 18px;
+    font-size: 2vh;
 `
 
 const MyInfo = ({id, content, icon}) => {

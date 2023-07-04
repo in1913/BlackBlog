@@ -1,9 +1,21 @@
-import React from 'react';
-import { Card, Button, ListGroup } from 'react-bootstrap';
-
+import React, {useState} from 'react';
+import { Card, Button } from 'react-bootstrap';
+import "./portfolio.css";
 const Project = ({title, date, people, thumbnail, description, role}) => {
+    const [isHover, setIsHover] = useState(false);
+    const handleMouseOver = () => {
+        setIsHover(true);
+    }
+    const handleMouseOut = () => {
+        setIsHover(false);
+    }
     return (
-        <Card style={{background : "#fff", color: "#000"}} className='mb-5'>
+        <Card 
+            style={{background : "#fff", color: "#000"}} 
+            className={isHover ? "mb-5 big" : "mb-5 small"}
+            onMouseOut={handleMouseOut}
+            onMouseOver={handleMouseOver}
+            >
             <Card.Img variant='top' src={thumbnail} style={{width: "100%"}}/>
             <Card.Body>
                 <Card.Title>{title}</Card.Title>

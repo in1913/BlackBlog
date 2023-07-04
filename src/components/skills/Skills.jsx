@@ -81,8 +81,8 @@ const Skills = () => {
                                                         </BottomTitle>
                                                     </BottomTitleBox>
                                                 </Stacks>
-                                                <div className='d-flex justify-content-center mb-2' style={{height: "20px"}}>
-                                                    <SkillBar grade={list.grade}/>
+                                                <div className='d-flex justify-content-center mb-2' style={{height: "15px"}}>
+                                                    <SkillBar grade={list.grade} key={index}/>
                                                 </div>
 
                                             </Col>
@@ -108,8 +108,8 @@ const Skills = () => {
                                                         </BottomTitle>
                                                     </BottomTitleBox>
                                                 </Stacks>
-                                                <div className='d-flex justify-content-center mb-2' style={{height: "20px"}}>
-                                                    <SkillBar grade={list.grade}/>
+                                                <div className='d-flex justify-content-center mb-2' style={{height: "15px"}}>
+                                                    <SkillBar grade={list.grade} key={index}/>
                                                 </div>
                                             </Col>
                                         ))
@@ -144,7 +144,7 @@ const Skills = () => {
                                                                 </BottomTitle>
                                                             </BottomTitleBox>
                                                         </Stacks>
-                                                        <div className='d-flex justify-content-center mb-2' style={{height: "20px"}}>
+                                                        <div className='d-flex justify-content-center mb-2' style={{height: "15px"}}>
                                                             <SkillBar grade={list.grade}/>
                                                         </div>
                                                     </Col>
@@ -170,7 +170,7 @@ const Skills = () => {
                                                                 </BottomTitle>
                                                             </BottomTitleBox>
                                                         </Stacks>
-                                                        <div className='d-flex justify-content-center mb-2' style={{height: "20px"}}>
+                                                        <div className='d-flex justify-content-center mb-2' style={{height: "15px"}}>
                                                             <SkillBar grade={list.grade}/>
                                                         </div>
                                                     </Col>
@@ -200,7 +200,7 @@ const Skills = () => {
                                                                 </BottomTitle>
                                                             </BottomTitleBox>
                                                         </Stacks>
-                                                        <div className='d-flex justify-content-center mb-2' style={{height: "20px"}}>
+                                                        <div className='d-flex justify-content-center mb-2' style={{height: "15px"}}>
                                                             <SkillBar grade={list.grade}/>
                                                         </div>
                                                     </Col>
@@ -238,7 +238,7 @@ const Skills = () => {
                                                                 </BottomTitle>
                                                             </BottomTitleBox>
                                                         </Stacks>
-                                                        <div className='d-flex justify-content-center mb-2' style={{height: "20px"}}>
+                                                        <div className='d-flex justify-content-center mb-2' style={{height: "15px"}}>
                                                             <SkillBar grade={list.grade}/>
                                                         </div>
                                                     </Col>
@@ -263,7 +263,7 @@ const Skills = () => {
                                                                 </BottomTitle>
                                                             </BottomTitleBox>
                                                         </Stacks>
-                                                        <div className='d-flex justify-content-center mb-2' style={{height: "20px"}}>
+                                                        <div className='d-flex justify-content-center mb-2' style={{height: "15px"}}>
                                                             <SkillBar grade={list.grade}/>
                                                         </div>
                                                     </Col>
@@ -288,7 +288,7 @@ const Skills = () => {
                                                                 </BottomTitle>
                                                             </BottomTitleBox>
                                                         </Stacks>
-                                                        <div className='d-flex justify-content-center mb-2' style={{height: "20px"}}>
+                                                        <div className='d-flex justify-content-center mb-2' style={{height: "15px"}}>
                                                             <SkillBar grade={list.grade}/>
                                                         </div>
                                                     </Col>
@@ -313,7 +313,7 @@ const Skills = () => {
                                                                 </BottomTitle>
                                                             </BottomTitleBox>
                                                         </Stacks>
-                                                        <div className='d-flex justify-content-center mb-2' style={{height: "20px"}}>
+                                                        <div className='d-flex justify-content-center mb-2' style={{height: "15px"}}>
                                                             <SkillBar grade={list.grade}/>
                                                         </div>
                                                     </Col>
@@ -338,7 +338,7 @@ const Skills = () => {
                                                                 </BottomTitle>
                                                             </BottomTitleBox>
                                                         </Stacks>
-                                                        <div className='d-flex justify-content-center mb-2' style={{height: "20px"}}>
+                                                        <div className='d-flex justify-content-center mb-2' style={{height: "15px"}}>
                                                             <SkillBar grade={list.grade}/>
                                                         </div>
                                                     </Col>
@@ -368,7 +368,7 @@ const Skills = () => {
                                                                 </BottomTitle>
                                                             </BottomTitleBox>
                                                         </Stacks>
-                                                        <div className='d-flex justify-content-center mb-2' style={{height: "20px"}}>
+                                                        <div className='d-flex justify-content-center mb-2' style={{height: "15px"}}>
                                                             <SkillBar grade={list.grade}/>
                                                         </div>
                                                     </Col>
